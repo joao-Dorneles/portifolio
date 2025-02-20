@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <div id="primeirotexto">
+    <h1>Preencha este formulário de contato</h1>
+    </div>
+    <div id="formulario">
+     <form action="backend_portifolio.php"
+     method="post">
+        <label>Informe seu Nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Ex. José Maria da Silva" required>
+        <br>
+        <br>
+        <label>Informe seu Telefone:</label><br>
+        <input type="int" id="telefone" name="telefone" placeholder="XX XXXX-XXXX" required>
+        <br>
+        <br>
+        <label>Informe seu E-mail:</label><br>
+        <input type="email" id="email" name="email" placeholder="exemplo123@gmail.com" required>
+        <br>
+        <br>
+        <label>Motivo do contato:</label><br>
+        <input type="text" id="motivo" name="motivo" maxlength="255" placeholder="Breve explicação do contato(máx. 255)" required>
+        <br><br>
+        <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <button id="voltar" onclick="window.location.href='index.html'">Voltar ao Início</button>
+    </footer>
+</body>
+</html>

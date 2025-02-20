@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(#000000, #020022);
+    background-attachment: fixed;
+}
+p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+button{
+    background-color: #00ddff;
+    border: none;
+    box-shadow: 0 0 10px #00ddff;
+    width: 100px;
+    height: 50px;
+    transition: background-color 0.3s ease, transform 0.3s;
+    font-size: 15px;
+    margin-bottom: 20px
+
+}
+button:hover{
+    background-color: aqua;
+    transform: scale(1.1)
+}
+img{
+    width: 100px;
+}
